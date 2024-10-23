@@ -2,18 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"/> 
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Script Helper 🐋 </h1>
     <form>
-        <label for="fname">First Name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Last Name:</label><br>
-        <input type="text" id="lname" name="lname"><br>
-        <input type="submit" value="Submit">
+        <label for="fname">Solicitante:</label><br>
+        <input class="inp" type="text" id="fname" name="fname"><br>
+        <label for="lname">Solicitação:</label><br>
+        <input class="inp" type="text" id="lname" name="lname"><br>
+        <input class="button22" type="submit" value="Submit">
     </form>
-    <div id="hud" class="hud">
-        teste
+
+    <div class="buttons">
+        <button id="suportButton">Suporte</button>
+        <button>Historico</button>
     </div>
-    <script src="script.js"></script>
+
+    <div class="wrap">
+        <div id="solicitante" class="solicitante">
+            SOLICITANTE :
+        </div>
+        <div id="nome" class="nome">
+            CLIENTE :
+        </div>
+        <div class="tel">
+            TELEFONE QUE ENTROU EM CONTATO :
+        </div>
+        <div id="cell" class="cell">
+            TELEFONE CADASTRADO :
+        </div>
+        <div id="email" class="email">
+            EMAIL :
+        </div>
+        <div id="solicitacao" class="solicitacao">
+            SOLICITACAO :
+        </div>
+        <div class="SOLUCAO">
+            SOLUCAO
+        </div>
+        <div id="suporteSection">
+            asd
+        </div>
+        <script src="script.js"></script>
+    </div>
 </body>
 </html>
